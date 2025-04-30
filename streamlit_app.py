@@ -13,7 +13,7 @@ st.set_page_config(page_title="Image Quality Assessment", layout="centered")
 st.title("📷 Image Quality Assessment (MOS Prediction)")
 st.markdown("Upload an image to get its predicted **Quality Rating** and see its quality on a visual scale.")
 
-with st.expander("📘 About this App", expanded=False):
+with st.expander(" About this App", expanded=False):
     st.markdown("""
 This app uses a **deep learning model** to predict image quality on a scale of 1–10, based on MOS (Mean Opinion Score).
 
