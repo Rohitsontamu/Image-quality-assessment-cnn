@@ -1,6 +1,6 @@
  import tensorflow as tf
 
-from cnn_model import X_test
+from app.cnn_model import X_test
 
 # If you saved it as .h5
 model = tf.keras.models.load_model("model.h5")
