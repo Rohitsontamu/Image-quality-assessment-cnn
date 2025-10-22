@@ -10,7 +10,7 @@ import pandas as pd
 import base64
 
 st.set_page_config(page_title="Image Quality Assessment", layout="centered")
-st.title("📷 Image Quality Assessment ")
+st.title("📷 Image Quality Assessment App ")
 st.markdown("Upload an image to get its predicted **Quality Rating** and see its quality on a visual scale.")
 
 with st.expander(" 📱 About this App", expanded=False):
